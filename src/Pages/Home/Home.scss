@@ -1,0 +1,165 @@
+.exchange-section {
+    h1 {
+        font-size: 50px;
+        font-weight: 700px;
+    }
+
+    .exchange-container {
+        background: #FFFFFF;
+        opacity: 0.95;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .exchange-box {
+        padding: 15px 15px;
+        border-radius: 10px;
+        border: 1px solid #6A6A6A;
+        height: 100px;
+    }
+
+    .pink-box {
+        padding: 10px;
+        border: 1px #FCDDEC solid;
+        border-radius: 8px;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
+
+// ----------------------------
+.partners {
+    background: #FCBF07;
+
+    .partners-box {
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 90px;
+        padding: 5px 10px;
+    }
+
+    .desktop-partners-padding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .partners .desktop-partners-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+// ---------------------------
+.counter {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+
+// -------------------------
+.choose {
+    position: relative;
+    background: #000000;
+
+    .choose-img-center {
+        position: absolute;
+        top: -10%;
+        left: 0;
+        right: 0;
+    }
+
+    .choose-iconbox {
+        margin: auto;
+        background: #6366F1;
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        padding: 7px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .choose-box {
+        position: relative;
+        text-align: center;
+        background: #FFFFFF;
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+}
+
+// --------------------------
+
+.main-futures {
+    .main-futures-box {
+        border: 1px #6A6A6A solid;
+        padding: 10px;
+        height: 45px;
+    }
+}
+
+// ----------------------------
+// -------------------------
+.steps {
+    position: relative;
+    background: #F6FBFF;
+
+    .steps-img-center {
+        position: absolute;
+        top: -10%;
+        left: 0;
+        right: 0;
+    }
+
+    .steps-iconbox {
+        margin: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        padding: 7px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .steps-box {
+        position: relative;
+        text-align: center;
+        background: #FFFFFF;
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+}
+
+// ----------------------------------
+.store {
+    background: #FFFFFF;
+}
+
+// ----------------------------------
+.FAQ {
+    background: #000000;
+}
+
+.customer-card {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D1DBE3;
+    border-radius: 24px;
+    padding: 20px;
+    text-align: center;
+    // box-shadow: 0px 0px 25px rgba(57, 47, 220, 0.1);
+}
